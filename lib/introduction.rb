@@ -3,11 +3,24 @@
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 
+my_name = "Lluis"
+my_language = "anything"
 
+def #introduction(name)
+  puts "hi, my name is #{name}"
+end
 
+def #introduction_with_language(name, language)
+  puts "hi, my name is #{name} and I am learning to program in #{language}"
+end
 
+def #introduction_with_language_optional(name, language = 'Ruby')
+  puts "hi, my name is #{name} and I am learning to program in #{language}"
+end
 
-
+#introduction(my_name)
+#introduction_with_language(my_name, my_language)
+#introduction_with_language_optional(my_name)
 
 
 
